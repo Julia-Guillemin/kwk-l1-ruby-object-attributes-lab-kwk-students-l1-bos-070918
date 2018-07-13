@@ -2,7 +2,7 @@
 
 class Dog
   
-  attr_accessible :name , :breed
+  attr_accessor :name , :breed
   
 end 
 
