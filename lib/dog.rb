@@ -2,11 +2,11 @@
 
 class Dog
   
-  attr_accessible :name, :breed
+  attr_accessible :name , :breed
   
 end 
 
 
 fido = Dog.new
 puts fido.name = "Fido"
-puts fido.breed = "husky"
+puts fido.breed = "Husky"
